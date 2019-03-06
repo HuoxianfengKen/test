@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
-import unittest
 import time
+import unittest
+
 from selenium import webdriver
 
 
@@ -24,5 +25,4 @@ class PythonOrgSearch1(unittest.TestCase):
         time.sleep(5)
 
 if __name__ == '__main__':
-    unittest.main()
-    print('修改测试第一次')
+     unittest.main()
